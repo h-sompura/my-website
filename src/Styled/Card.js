@@ -3,13 +3,8 @@ export const Card = styled.div`
   width:100%;
   @media (min-width: 1300px) {
     display: grid;
-<<<<<<< HEAD
     grid-template-columns: repeat(2, minmax(580px, 360px));
     grid-gap:40px;
-=======
-    grid-template-columns: repeat(2, minmax(500px, 360px));
-    grid-gap:60px;
->>>>>>> 56447377794cbff27e0e4889b6bc30df753954c4
  }
 `;
 export const CardWrapper = styled.div`
@@ -50,6 +45,6 @@ export const CardDescription = styled.p`
     line-height: 36px;
     margin:1em .4em;
     @media (min-width: 1300px) {
-        width:29vw;
+        width:550px;
      }
 `;

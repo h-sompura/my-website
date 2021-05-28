@@ -29,34 +29,31 @@ export const FooterHeader = styled.p`
 `;
 export const FooterItems = styled.ul`
     list-style: none;
-    @media (min-width: 768px) {
+    @media (min-width: 411px) {
         display:block;
         text-align:center;
     }
 `;
 
 export const FooterItem = styled.a`
-    margin-right:28px;
+    margin-right:18px;
     cursor: pointer;
     transition: 100ms;
     cursor: pointer;
     color: inherit;
     font-weight: 500;
-<<<<<<< HEAD
-    font-size: 1rem;
-=======
-    font-size: 1.1rem;
->>>>>>> 56447377794cbff27e0e4889b6bc30df753954c4
     line-height: 31px;
+    font-size:1rem;
     text-decoration-line: underline;
     &:hover {
         text-decoration:underline;
         font-weight:bold;
     }
-    @media only screen and (min-width:400px){
-        margin:0 20px;   
+    @media only screen and (min-width:400px){ 
+        font-size:.9rem;  
+        margin-right:30px;
     }
-    @media only screen and (min-width:400px){
+    @media only screen and (min-width:768px){
         margin:0 30px;
         font-size:1.27rem;
         margin-right:20px;
