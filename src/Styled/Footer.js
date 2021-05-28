@@ -46,7 +46,7 @@ export const FooterItem = styled.a`
     cursor: pointer;
     color: inherit;
     font-weight: 500;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     line-height: 31px;
     text-decoration-line: underline;
     &:hover {
