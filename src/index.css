@@ -10,7 +10,7 @@ body {
   color: white;
 }
 a{
-  text-decoration: none;
+  text-decoration: underline;
   color:#abaaec;
   font-weight: 400;
   font-family: inherit;
@@ -20,4 +20,9 @@ a{
 a:hover{
   font-weight:bold;
   text-decoration: underline;
+}
+@media only screen and (min-width:1200px){
+  a{
+    font-size:1.14rem;
+  }
 }

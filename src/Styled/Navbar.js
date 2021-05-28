@@ -2,10 +2,12 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 export const Nav = styled.nav`
     display: flex;
-    padding: 20px;
+    padding: 12px;
     align-items: center;
     margin-bottom: 40px;
     letter-spacing:0.02em;
+    margin:0 1em;
+    max-width:100%;
 `;
 
 export const NavItems = styled.ul`

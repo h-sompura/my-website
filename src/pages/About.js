@@ -10,9 +10,9 @@ function About() {
         <div id="about">
             <SecondaryText>About moi! :)</SecondaryText>
             <PrimaryText>I’m a self-taught UX/UI designer and front-end developer based in Bangalore, 🇮🇳. </PrimaryText>
-            <PrimaryText>As a creative kid, I’ve always been fascinated by intricate details, colours and aesthetics. Combining my observational skills and technical knowledge from engineering has made me design consciously. 🌏</PrimaryText>
+            <PrimaryText>As a creative kid, I’ve always been fascinated by intricate details, colours and aesthetics. I'm growing to combine my observational skills and technical knowledge from engineering to design more consciously. 🌏</PrimaryText>
             <PrimaryText>My goal is to build things I design, hence I'm always learning and unlearning. 🌈</PrimaryText>
-            <PrimaryText>When I'm not on Figma, I'm jamming to some questionable songs 🎶, flushing out my creativity into digital art/illustrations 🎨 or enjoying some cat videos😺. </PrimaryText>
+            <PrimaryText>When I'm not on Figma, I'm jamming to some questionable songs 🎶, creating digital art/illustrations 🎨 or enjoying some cat videos. 💤 </PrimaryText>
             <br/>
             <SecondaryText>Some art</SecondaryText>
             <Card>

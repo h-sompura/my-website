@@ -5,40 +5,42 @@ export const FooterDiv = styled.div`
     background-color:#abaaec;
     color:#212121;
     letter-spacing:0.02em;
-    height:110px;
+    height:120px;
     bottom:0;
+    max-width:100%;
     @media (min-width: 768px) {
         display:block;
         text-align:center;
         bottom:0;
     }
     @media (min-width: 1300px) {
-        margin-top: 1200px;
+        margin-top: 1300px;
    
 `;
 export const FooterHeader = styled.p`
     color:inherit;
     letter-spacing:0.02em;
+    text-align:center;
     margin-top:2em;
-    font-size:1.2rem;
+    font-size:1.1rem;
     font-weight: 500;
-    margin-left:1em;
 `;
 export const FooterItems = styled.ul`
+    text-align:center;
     list-style: none;
-    padding-inline-start: 0;
-    display: flex;
-    margin-left:1.4em;
-    align-items: center;
+    max-width:100%;
     @media (min-width: 768px) {
         display:block;
         text-align:center;
         margin-left:2.75em;
     }
+    @media (min-width: 1200px) {
+        margin-left:0.2em;
+    }
 `;
 
 export const FooterItem = styled.a`
-    margin-right: 44px;
+    margin-right:28px;
     cursor: pointer;
     transition: 100ms;
     cursor: pointer;
