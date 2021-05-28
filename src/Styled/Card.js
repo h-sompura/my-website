@@ -3,8 +3,8 @@ export const Card = styled.div`
   max-width:100%;
   @media (min-width: 1300px) {
     display: grid;
-    grid-template-columns: repeat(2, minmax(700px, 360px));
-    grid-gap:40px;
+    grid-template-columns: repeat(2, minmax(500px, 360px));
+    grid-gap:60px;
  }
 `;
 export const CardWrapper = styled.div`
