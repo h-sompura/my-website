@@ -1,16 +1,18 @@
 import styled from "styled-components";
 export const Card = styled.div`
-  max-width:100%;
+  width:100%;
   @media (min-width: 1300px) {
     display: grid;
-    grid-template-columns: repeat(2, minmax(700px, 360px));
+    grid-template-columns: repeat(2, minmax(580px, 360px));
     grid-gap:40px;
  }
 `;
 export const CardWrapper = styled.div`
-  margin: 3em 0;
-  max-width:100%;
+  margin: 2em 0;
   max-height:100%;
+  @media (min-width: 760px) {
+      margin-left:2.45em;
+   }
   @media (min-width: 1300px) {
     margin-left:11em;
     margin-top:30px;
@@ -20,16 +22,17 @@ export const CardImage = styled.img`
     height:100%;
     width:100%;
     object-fit: cover;
-    display:block;
     @media (min-width: 1300px) {
         width:550px;
         height:350px;
      }
 `;
-export const CardHeader = styled.h2`
+export const CardHeader = styled.h3`
     font-weight:800;
     color:#B8B8B8;
     line-height: 36px;
+    margin:1em .4em;
+    letter-spacing:0.03rem;
     @media (min-width: 1300px) {
        width:50vw;  
        margin-top:2em;      
@@ -40,7 +43,8 @@ export const CardDescription = styled.p`
     font-weight:400;
     color:#B8B8B8;
     line-height: 36px;
+    margin:1em .4em;
     @media (min-width: 1300px) {
-        width:30vw;
+        width:29vw;
      }
 `;

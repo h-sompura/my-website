@@ -2,17 +2,15 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 export const Nav = styled.nav`
     display: flex;
-    padding: 12px;
+    padding: 10px;
     align-items: center;
     margin-bottom: 40px;
     letter-spacing:0.02em;
-    margin:0 1em;
-    max-width:100%;
 `;
 
 export const NavItems = styled.ul`
     list-style: none;
-    padding-inline-start: 0;
+    padding-inline-start: 10px;
     display: flex;
     align-items: center;
 `;
@@ -22,6 +20,7 @@ export const NavHeader = styled(Link)`
     font-weight: 500;
     cursor: pointer;
     transition: 100ms;
+    margin-left:10px;
     cursor: pointer;
     color: #abaaec;
     text-decoration: none;
@@ -32,7 +31,7 @@ export const NavHeader = styled(Link)`
 `;
 
 export const NavItem = styled(Link)`
-    margin-right: 20px;
+    margin-right: 12px;
     cursor: pointer;
     transition: 100ms;
     cursor: pointer;

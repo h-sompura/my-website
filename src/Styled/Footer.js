@@ -1,41 +1,37 @@
 import styled from 'styled-components';
 export const FooterDiv = styled.div`
-    padding: 20px;
-    margin-top:48px;
+    margin-top:50px;
     background-color:#abaaec;
     color:#212121;
     letter-spacing:0.02em;
-    height:120px;
+    height:90px;
     bottom:0;
-    max-width:100%;
+    width:100%;
+    padding:11px 0;
     @media (min-width: 768px) {
         display:block;
         text-align:center;
-        bottom:0;
     }
     @media (min-width: 1300px) {
-        margin-top: 1300px;
-   
+        margin-top: 1400px;
+    }
 `;
 export const FooterHeader = styled.p`
     color:inherit;
-    letter-spacing:0.02em;
-    text-align:center;
-    margin-top:2em;
-    font-size:1.1rem;
+    margin-top:1em;
+    font-size:.8rem;
     font-weight: 500;
+    text-align:center;
+    @media (min-width: 1300px) {
+        font-size:1.1rem;
+        margin-left:40px;
+    }
 `;
 export const FooterItems = styled.ul`
-    text-align:center;
     list-style: none;
-    max-width:100%;
     @media (min-width: 768px) {
         display:block;
         text-align:center;
-        margin-left:2.75em;
-    }
-    @media (min-width: 1200px) {
-        margin-left:0.2em;
     }
 `;
 
@@ -46,11 +42,19 @@ export const FooterItem = styled.a`
     cursor: pointer;
     color: inherit;
     font-weight: 500;
-    font-size: 1.5rem;
+    font-size: 1rem;
     line-height: 31px;
     text-decoration-line: underline;
     &:hover {
         text-decoration:underline;
         font-weight:bold;
+    }
+    @media only screen and (min-width:400px){
+        margin:0 20px;   
+    }
+    @media only screen and (min-width:400px){
+        margin:0 30px;
+        font-size:1.27rem;
+        margin-right:20px;
     }
 `;

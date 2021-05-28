@@ -1,11 +1,12 @@
 import styled from 'styled-components';
 
 export const SecondaryText = styled.p`
-    font-size:1.45rem;
+    font-size:1.25rem;
     max-width:100%;
     font-weight:800;
     color:#B8B8B8;
     margin-top:30px;
+    margin-left:1em;
     line-height: 38px;
     letter-spacing:0.07rem;
     @media (min-width: 768px) {

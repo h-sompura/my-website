@@ -4,6 +4,7 @@ body {
   margin: 0;
   font-family: 'Epilogue', sans-serif;
   color:#A6A5A6;
+  width:100%;
 }
 ::selection {
   background-color: #6968DC;
@@ -16,6 +17,7 @@ a{
   font-family: inherit;
   transition: 100ms;
   letter-spacing:0.02em;
+  margin:0 .30em;
 }
 a:hover{
   font-weight:bold;
