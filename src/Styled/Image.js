@@ -8,6 +8,7 @@ export const GIFWrapper = styled.img`
         height:564px;
         width:752px;
         top:15%;
+        margin-left:10em;
         position:absolute;
     }
 `;
