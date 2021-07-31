@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Tabs from 'react-bootstrap/Tabs'
 import Tab from 'react-bootstrap/Tab'
 import { TabWrapper } from '../Styled/TabWrapper';
+import Links from "./Links";
 const CardTabs = () => {
       const [key, setKey] = useState('links');
         return (    
@@ -14,7 +15,7 @@ const CardTabs = () => {
       className="mb-3"
     >
       <Tab eventKey="links" title="Links">
-        <p>This is home</p>
+        <Links />
       </Tab>
       <Tab eventKey="about" title="About">
       <p>This is about</p>
