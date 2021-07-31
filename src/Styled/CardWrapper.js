@@ -6,7 +6,7 @@ export const CardWrapper = styled.div`
     top:104px;
     margin:0 3.24em;
     width:80%;
-    height:75vh;
+    height:auto;
     box-shadow: -2px 2px 8px rgba(0, 0, 0, 0.2), 1px -1px 6px rgba(0, 0, 0, 0.2);
     border-radius: 12px;
     @media screen and (min-width:700px){
@@ -26,5 +26,6 @@ export const CardImage = styled.div`
     }
 `;export const CardHeader = styled.h1`
     color:#FFFFFE;
+    width:90%;
     margin:1em 2em;
 `;

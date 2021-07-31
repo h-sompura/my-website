@@ -4,7 +4,7 @@ export const ButtonWrapper = styled.div`
     background-color: #7F5AF0;
     width:15em;
     text-align:center;
-    margin: 2em 5em;
+    margin: 3em 5em;
     border-radius:24px;
     transition:150ms;
     & a{
