@@ -7,7 +7,6 @@ const Card = () => {
              <CardImage />
              <CardHeader>Harshitha Sompura</CardHeader>
              <CardTabs />
-             <p>hi</p>
         </CardWrapper>
    
     )

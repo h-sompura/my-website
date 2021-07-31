@@ -6,7 +6,7 @@ export const CardWrapper = styled.div`
     top:104px;
     margin:0 3.24em;
     width:80%;
-    height:70vh;
+    height:75vh;
     box-shadow: -2px 2px 8px rgba(0, 0, 0, 0.2), 1px -1px 6px rgba(0, 0, 0, 0.2);
     border-radius: 12px;
     @media screen and (min-width:700px){
