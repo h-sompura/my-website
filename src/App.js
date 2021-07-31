@@ -1,12 +1,15 @@
 import { GlobalStyle } from "./Styled/GlobalStyle";
-import {Progress} from "./components/Progress";
 import Type from "./components/Type";
+import Card from "./components/Card";
+import {GradientWrapper} from "./Styled/GradientWrapper";
 function App() {
   return (   
     <>
       <GlobalStyle/>
-      <Progress />
-      <Type/>
+      <GradientWrapper />
+      <Card>
+        <Type/>
+      </Card>   
   </>
   );
 }
