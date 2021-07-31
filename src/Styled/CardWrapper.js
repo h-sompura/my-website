@@ -12,6 +12,7 @@ export const CardWrapper = styled.div`
     @media screen and (min-width:700px){
         width:35%;
         transform: translateX(90%);
+        margin-bottom:4em;
     }
 `;
 export const CardImage = styled.div`
@@ -24,8 +25,12 @@ export const CardImage = styled.div`
     @media screen and (min-width:700px){
         transform: translateX(40%);
     }
-`;export const CardHeader = styled.h1`
+`;
+export const CardHeader = styled.h1`
     color:#FFFFFE;
     width:90%;
     margin:1em 2em;
+    @media screen and (min-width:700px){
+        transform: translateX(13%);
+    }
 `;

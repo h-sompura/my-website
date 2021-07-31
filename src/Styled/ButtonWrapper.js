@@ -31,5 +31,5 @@ export const ButtonWrapper = styled.div`
         -moz-box-sizing: border-box;
         -webkit-box-sizing: border-box;
     }
-
+    
 `;

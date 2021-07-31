@@ -14,4 +14,8 @@ export const TabWrapper = styled.div`
         color:#FFFFFE;
         background:#3D3E40;    
     }
+    @media screen and (min-width:700px){
+        transform: translateX(20%);
+        margin:0 1em;
+    }
 `;
