@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import Image from "../assets/CardImage.png";
 export const CardWrapper = styled.div`
     background:#242629;
     position:absolute;
@@ -12,4 +13,18 @@ export const CardWrapper = styled.div`
         width:35%;
         transform: translateX(90%);
     }
+`;
+export const CardImage = styled.div`
+    background:url(${Image});
+    margin-top:3em;
+    margin-left:37%;
+    width:106px;
+    height:106px;
+    border-radius:88px;
+    @media screen and (min-width:700px){
+        transform: translateX(40%);
+    }
+`;export const CardHeader = styled.h1`
+    color:#FFFFFE;
+    margin:1em 2em;
 `;
