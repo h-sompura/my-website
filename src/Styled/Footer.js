@@ -1,11 +1,13 @@
 import styled from "styled-components";
 
 export const Footer =styled.div`
-    position:absolute;
+    position:relative;
     bottom:0;
-    margin:auto;
     margin-left:15%;
+    top:1100px;
     @media screen and (min-width:600px){
-        margin-left:40%;
+        margin-left:42%;
+        top:0;
+        margin-top:55%;
     }
 `;
