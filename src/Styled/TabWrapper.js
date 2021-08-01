@@ -17,9 +17,14 @@ export const TabWrapper = styled.div`
     @media screen and (min-width:400px){
         margin-left:2em;   
     }
+    @media screen and (min-width:500px){
+        & .nav-tabs{
+        margin-left:6em;
+        }
+    }
     @media screen and (min-width:1100px){
         & .nav-tabs{
-        margin-left:5.6em;
+        margin-left:5.2em;
         }
     }
     @media screen and (min-width:700px){

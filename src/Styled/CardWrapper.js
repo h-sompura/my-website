@@ -29,6 +29,9 @@ export const CardImage = styled.div`
     @media screen and (min-width:400px){
         margin-left:10em;   
     }
+    @media screen and (min-width:500px){
+        margin-left:12em;
+    }
     @media screen and (min-width:700px){
         transform: translateX(40%);
         margin-left:34%;
@@ -45,10 +48,13 @@ export const CardHeader = styled.h1`
     @media screen and (min-width:400px){
         margin-left:2.6em;   
     }
+    @media screen and (min-width:500px){
+        margin-left:3.6em;
+    }
     @media screen and (min-width:700px){
         transform: translateX(13%);
     }
     @media screen and (min-width:1100px){
-        transform: translateX(10%);
+        transform: translateX(0%);
     }
 `;

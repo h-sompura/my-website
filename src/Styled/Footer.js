@@ -5,6 +5,11 @@ export const Footer =styled.div`
     bottom:0;
     margin-left:1em;
     top:1100px;
+    @media screen and (min-width:500px){
+        top:700px;
+        margin-left:12%;
+        margin-top:55%;
+    }
     @media screen and (min-width:700px){
         top:600px;
         margin-left:28%;
