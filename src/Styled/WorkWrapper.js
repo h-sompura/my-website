@@ -8,7 +8,13 @@ export const WorkWrapper = styled.div`
     border-radius:24px;
     font-weight:800;
     @media screen and (min-width:700px){
-        transform: translateX(-20%);
+        transform: translateX(-18%);
         margin-bottom:2em;
+    }
+    @media screen and (min-width:400px){
+        margin-left:-.8em;   
+    }
+    @media screen and (min-width:1200px){
+        margin-left:-1em; 
     }
 `;

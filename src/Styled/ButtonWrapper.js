@@ -2,9 +2,11 @@ import styled from "styled-components";
 
 export const ButtonWrapper = styled.div`
     background-color: #7F5AF0;
-    width:15em;
+    margin-left:3.2em;
+    margin-top:2em;
+    margin-bottom:2em;
+    width:75%;
     text-align:center;
-    margin: 3em 5em;
     border-radius:24px;
     transition:150ms;
     & a{
@@ -31,5 +33,11 @@ export const ButtonWrapper = styled.div`
         -moz-box-sizing: border-box;
         -webkit-box-sizing: border-box;
     }
-    
+    @media screen and (min-width:400px){
+        margin-left:2em;   
+    }
+    @media screen and (min-width:700px){
+        margin: 3em 5em;
+        width:15em;
+    }
 `;
